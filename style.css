@@ -1,0 +1,37 @@
+@font-face {
+    font-family: SF Mono Regular;
+    src: url(SFMono.otf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: #d8d8d8;
+	font-family: Consolas, SF Mono Regular;
+	width: 90vw;
+}
+
+p {
+	margin: 0;
+}
+
+label, input {
+	margin: 0;
+}
+
+#commandLine {
+	outline: none;
+	border: none;
+	background-color: black;
+	color: #d8d8d8;
+	font-size: 16px;
+	font-family: Consolas;
+	width: auto;
+}
+
+@media only screen and (max-width: 850px) {
+	#commandLine {
+		width: 50%;
+	}
+}
